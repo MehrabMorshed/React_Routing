@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark position-sticky top-0">
+        <nav className="navbar navbar-expand-lg navbar-dark position-sticky sticky-top top-0">
                 <div className="container">
                     <Link to="/" className="navbar-brand text-light">Free Palestine</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

@@ -1,9 +1,7 @@
 export default function Footer() {
     return (
         <footer
-            className="text-center text-lg-start text-white bg-dark"
-
-        >
+            className="text-center text-lg-start text-white bg-dark mt-5">
             <section
                 className="d-flex justify-content-between p-4"
 
@@ -91,17 +89,15 @@ export default function Footer() {
                                 className="mb-4 mt-0 d-inline-block mx-auto"
 
                             />
-                            <p><i className="fas fa-home mr-3"></i> State of Palestine, West Asia </p>
-                            <p><i className="fas fa-envelope mr-3"></i> info@example.com</p>
-                            <p><i className="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-                            <p><i className="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                            <p><i className="fas fa-home mr-3"></i> Bangladesh </p>
+                            <p><i className="fas fa-envelope mr-3"></i> mehrabmorshed66@gmail.com</p>
                         </div>
                     </div>
                 </div>
             </section>
             <div className="text-center p-3">
-                © 2020 Copyright:
-                <a className="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                © 2020 Copyright : 
+                <a className="text-white" href="https://wa.me/01709066504"> Mehrab Morshed</a>
             </div>
         </footer>
     )
